@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.jotfor.ms/favicon.ico">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="../bootstrap-5.1.0-dist/css/bootstrap.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../assignment/images/jotform-icon.png">
+    <title>Jot Form Clone</title>
+</head>
+<body>
+    
+        <div class="main">
+            <h1>Employee Satisfaction Survey</h1>
+            <!-- <hr> -->
+            
+            <div class="line"></div>
+            
+            <form action="">
+              <section id="section1">
+                <div class="input input1">
+                  <label for="firstName">Name</label> <br>
+                 <div id="one">
+                  <input type="text" id="firstName"> <br>
+                  <label for="firstName" class="only">First Name</label>
+                 </div>
+                 <div id="two">
+                   <input type="text" id="lastName"><br>
+                  <label for="lastName" class="only">Last Name</label>
+                 </div>
+                </div>
+                <div class="container">
+                  <div class="input input2">
+                    <label for="midName">Middle Name</label> <br>
+                    <input type="text" id="midName"> <br>
+                    <label for="midName" class="only" id="invencible">midName</label>
+                  </div>
+                  <div class="input input3">
+                    <label for="date">Date</label> <br>
+                    <input type="date" id="date"> <br>
+                    <label for="date" class="only">Date</label>
+                  </div>
+                </div>
+              </section>
+
+              <section id="section2">
+                <p>How would you describe your overall level of job satisfaction? </p>
+                <input class="position" name="sectionTwoRadio" type="radio" id="VerySatisfied"> <label for="VerySatisfied">Very satisfied</label>
+                 <br>
+                <input class="position" name="sectionTwoRadio" type="radio" id="SomewhatSatisfied"> <label for="SomewhatSatisfied">Somewhat satisfied</label>  <br>
+                <input class="position" name="sectionTwoRadio" type="radio" id="Neutral"> <label for="Neutral">Neutral</label> 
+                <br>
+                <input class="position" name="sectionTwoRadio" type="radio" id="SomewhatDissatisfied"> <label for="SomewhatDissatisfied">Somewhat dissatisfied</label> 
+                <br>
+                <input class="position" name="sectionTwoRadio" type="radio" id="VeryDissatisfied"> <label for="VeryDissatisfied">Very dissatisfied</label> <br>
+              </section>
+              <p id="dontMove">How would you rate the following?</p>
+              <section id="section3 " class="section3">
+                
+                <!-- cellspacing="8" -->
+                <table id="table">
+                  <tr>
+                    
+                    <td scope="col" id="empty" ></td>
+                    <td scope="col" class="" >Very Poor</td>
+                    <td scope="col" class="" >Poor</td>
+                    <td scope="col" class="" >Average</td>
+                    <td scope="col" class="" >Good</td>
+                    <td scope="col" class="" >Excellent</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Salary</td>
+                    <td class="edit"><input name="Salary" type="radio" ></td>
+                    <td class="edit"><input name="Salary" type="radio" ></td>
+                    <td class="edit"><input name="Salary" type="radio" ></td>
+                    <td class="edit"><input name="Salary" type="radio" ></td>
+                    <td class="edit"><input name="Salary" type="radio" ></td>
+                    </tr>
+                  
+                    <tr>
+                      <td scope="row">Overall benefits</td>
+                      <td class="edit"><input name="Overall" type="radio"></td>
+                      <td class="edit"><input name="Overall" type="radio"></td>
+                      <td class="edit"><input name="Overall" type="radio"></td>
+                      <td class="edit"><input name="Overall" type="radio"></td>
+                      <td class="edit"><input name="Overall" type="radio"></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Health benefits</td>
+                      <td class="edit"><input name="Health" type="radio"></td>
+                      <td class="edit"><input name="Health" type="radio"></td>
+                      <td class="edit"><input name="Health" type="radio"></td>
+                      <td class="edit"><input name="Health" type="radio"></td>
+                      <td class="edit"><input name="Health" type="radio"></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Physical work environment</td>
+                      <td class="edit"><input name="Physical" type="radio"></td>
+                      <td class="edit"><input name="Physical" type="radio"></td>
+                      <td class="edit"><input name="Physical" type="radio"></td>
+                      <td class="edit"><input name="Physical" type="radio"></td>
+                      <td class="edit"><input name="Physical" type="radio"></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Senior leadership</td>
+                      <td class="edit"><input name="Senior" type="radio"></td>
+                      <td class="edit"><input name="Senior" type="radio"></td>
+                      <td class="edit"><input name="Senior" type="radio"></td>
+                      <td class="edit"><input name="Senior" type="radio"></td>
+                      <td class="edit"><input name="Senior" type="radio"></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Individual management	</td>
+                      <td class="edit"><input name="Individual" type="radio"></td>
+                      <td class="edit"><input name="Individual" type="radio"></td>
+                      <td class="edit"><input name="Individual" type="radio"></td>
+                      <td class="edit"><input name="Individual" type="radio"></td>
+                      <td class="edit"><input name="Individual" type="radio"></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Performance feedback	</td>
+                      <td class="edit"><input type="radio" name="Performance" id=""></td>
+                      <td class="edit"><input type="radio" name="Performance" id=""></td>
+                      <td class="edit"><input type="radio" name="Performance" id=""></td>
+                      <td class="edit"><input type="radio" name="Performance" id=""></td>
+                      <td class="edit"><input type="radio" name="Performance" id=""></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row" >Employee evaluations	</td>
+                      <td class="edit"><input type="radio" name="Employee" id=""></td>
+                      <td class="edit"><input type="radio" name="Employee" id=""></td>
+                      <td class="edit"><input type="radio" name="Employee" id=""></td>
+                      <td class="edit"><input type="radio" name="Employee" id=""></td>
+                      <td class="edit"><input type="radio" name="Employee" id=""></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Recognition</td>
+                      <td class="edit"><input type="radio" name="Recognition" id=""></td>
+                      <td class="edit"><input type="radio" name="Recognition" id=""></td>
+                      <td class="edit"><input type="radio" name="Recognition" id=""></td>
+                      <td class="edit"><input type="radio" name="Recognition" id=""></td>
+                      <td class="edit"><input type="radio" name="Recognition" id=""></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Training opportunities	</td>
+                      <td class="edit"><input type="radio" name="Training" id=""></td>
+                      <td class="edit"><input type="radio" name="Training" id=""></td>
+                      <td class="edit"><input type="radio" name="Training" id=""></td>
+                      <td class="edit"><input type="radio" name="Training" id=""></td>
+                      <td class="edit"><input type="radio" name="Training" id=""></td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Opportunities for advancement	</td>
+                      <td class="edit"><input type="radio" name="Opportunities" id=""></td>
+                      <td class="edit"><input type="radio" name="Opportunities" id=""></td>
+                      <td class="edit"><input type="radio" name="Opportunities" id=""></td>
+                      <td class="edit"><input type="radio" name="Opportunities" id=""></td>
+                      <td class="edit"><input type="radio" name="Opportunities" id=""></td>
+                    </tr>
+                </table>
+              </section>
+              <section id="section4">
+                <p>Do you feel valued at work?  </p>
+                   <input class="position" name="feelAtWork" type="radio" id="yes"><label for="yes">Yes</label><br>
+                   <input class="position" name="feelAtWork"  type="radio" id="no"><label for="no">No</label>
+              </section>
+              <section id="section5">
+                <label for="feelAtWork">If No, Please Explain</label> <br>
+                <textarea class="textarea" name="" id="feelAtWork" cols="30" rows="10" placeholder="Type here..."></textarea>
+              </section>
+              <section id="section6">
+                <p>Do you have the resources you need to perform your job well?</p>
+                <input class="position" name="perform" type="radio" id="yes"><label for="yes">Yes</label><br>
+                <input class="position" name="perform" type="radio" id="no"><label for="no">No</label>
+              </section>
+              <section id="section7">
+                <label for="perform">If No, Please Explain</label> <br>
+                <textarea class="textarea" name="" id="perform" cols="30" rows="10" placeholder="Type here..."></textarea>
+              </section>
+              <section id="section8">
+                <p>Does your job cause you stress or anxiety?</p>
+                <input class="position" name="stress" type="radio" id="yes"><label for="yes">Yes</label><br>
+                <input class="position" name="stress" type="radio" id="no"><label for="no">No</label>
+              </section>
+              <section id="section9">
+                <label for="stress">If Yes, Please Explain</label> <br>
+                <textarea class="textarea" name="" id="stress" cols="30" rows="10" placeholder="Type here..."></textarea>
+              </section>
+              <section id="section10">
+                <p>Are sufficient efforts being made to solicit colleague opinions and feedback?</p>
+                <input class="position" name="feedback" type="radio" id="yes"><label for="yes">Yes</label><br>
+                <input class="position" name="feedback" type="radio" id="no"><label for="no">No</label>
+              </section>
+              <section id="section11">
+                <label for="feedback">If Yes, Please Explain</label> <br>
+                <textarea class="textarea" name="" id="feedback" cols="30" rows="10" placeholder="Type here..."></textarea>
+              </section>
+              <section id="section12">
+                <label for="addtionalFeedback">If Yes, Please Please Provide Any Additional Feedback Explain</label> <br>
+                <textarea  class="textarea" name="" id="addtionalFeedback" cols="30" rows="10" placeholder="Type here..."></textarea>
+              </section>
+
+             
+
+              <div id="section13">
+                <input class="btn" type="submit">
+              </div>
+              
+              
+            </form> 
+            <div id="line"></div>
+        </div>
+        <footer class="bottom">
+          <img class="logo" src="/images/Jotformfooter.png" alt="">
+         <div class="flex-div">
+          <p id="footer">Now create your own JotForm - It's free!</p>
+          <button id="hover" class="footer-btn"><a href="">Creat your own JotForm</a></button>
+         </div>
+        </footer>
+
+<!-- <script src="../bootstrap-5.1.0-dist/js/bootstrap.js"></script> -->
+ <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+</body>
+</html>
